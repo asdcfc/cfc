@@ -1,0 +1,126 @@
+<include file="Public/header1" />
+
+<!--main-->
+<div class="main clear">
+  <div class="left mainLeft">
+  <form id="user_form">
+   <div class="l_title">基本信息</div>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="150" class="tbright">账号：</td>
+        <td class="tbleft">{$user['user_name']}</td>
+      </tr>
+      <tr>
+        <td class="tbright">手机号：</td>
+        <td class="tbleft"><input type="text" name="mobile" id="mobile" value="{$user['mobile']}" class="input240"></td>
+      </tr>
+      <tr>
+        <td class="tbright">邮箱：</td>
+        <td class="tbleft"><input type="text" name="email" id="email" value="{$user['email']}" class="input240"></td>
+      </tr>
+      <tr>
+        <td class="tbright">登录密码：</td>
+        <td class="tbleft"><input type="password" name="password" class="input240"></td>
+      </tr>
+      <tr>
+        <td class="tbright">交易密码：</td>
+        <td class="tbleft"><input type="password" name="transaction_password" class="input240"></td>
+      </tr>
+     <tr>
+        <td align="tbright" ></td>
+        <td align="tbleft" ><input type="button" class="button" id="user_btn" value="保存"></td>
+        </tr>
+
+    </table>
+    </form>
+  </div>
+  <div class="left mainRight">
+   <div class="l_title">银行信息</div>
+   <form id="info_form">
+   <input type="hidden" name="info" id="info" value="1">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="150" class="tbright">开户名：</td>
+    <td class="tbleft"><input type="text" name="open_name" id="open_name" value="{$user['open_name']}" class="input240"></td>
+  </tr>
+  <tr>
+    <td class="tbright">开户银行：</td>
+    <td class="tbleft"><input type="text" name="open_bank" id="open_bank" value="{$user['open_bank']}" class="input240"></td>
+  </tr>
+  <tr>
+    <td class="tbright">开户账户：</td>
+    <td class="tbleft"><input type="text" name="open_acount" id="open_acount" value="{$user['open_acount']}" class="input240"></td>
+  </tr>
+ <tr>
+    <td align="tbright" ></td>
+    <td align="tbleft" ><input type="button" id="info_button" class="button" value="保存"></td>
+    </tr>
+
+</table>
+</form>
+  </div>
+</div>
+<!--main-->
+<!--footer-->
+<include file="Public/footer1" />
+<script type="text/javascript">
+  $(function(){
+    $('#user_btn').click(function(){
+      if(!$('#mobile').val()){
+          alert('手机号不能为空!');
+          return false;
+      }else if(!$('#email').val()){
+          alert('邮箱不能为空!');
+          return false;
+      }
+      var param = $('#user_form').serialize();
+
+      $.ajax({
+          url: '{:U("/Home/Index/modify")}',
+          type: 'POST',
+          dataType: 'json',
+          data:param,
+          success: function(json){
+              if(json.status == 1){
+                  window.location.href='{:U("/Home/Index/menber")}';
+                  alert('修改信息成功!');
+              }else{
+                  alert('修改失败.');
+              }
+          }
+      })
+    });
+
+    $('#info_button').click(function(){
+      if(!$('#open_name').val()){
+          alert('开户名不能为空!');
+          return false;
+      }else if(!$('#open_bank').val()){
+          alert('开户行不能为空!');
+          return false;
+      }else if(!$('#open_acount').val()){
+          alert('账户不能为空!');
+          return false;
+      }
+      var param = $('#info_form').serialize();
+
+      $.ajax({
+          url: '{:U("/Home/Index/modify")}',
+          type: 'POST',
+          dataType: 'json',
+          data:param,
+          success: function(json){
+              if(json.status == 1){
+                  window.location.href='{:U("/Home/Index/menber")}';
+                  alert('修改信息成功!');
+              }else{
+                  alert('修改失败.');
+              }
+          }
+      })
+    })
+  });
+</script>
+
+</body>
+</html>

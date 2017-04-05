@@ -1,0 +1,77 @@
+
+                    <form method="post" enctype="multipart/form-data" target="_blank" id="form-order">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover">
+                                <thead>
+                                <tr>
+                                    <td style="width: 1px;" class="text-center"><input type="checkbox" onclick="$('input[name*=\'selected\']').prop('checked', this.checked);"></td>
+    
+                                    <td class="text-right">
+                                        <a href="javascript:sort('user_id');">ID</a>
+                                    </td>
+                                    <td class="text-left">
+                                        <a href="javascript:void(0);">用户名</a>
+                                    </td>
+                                    <td class="text-left">
+                                        <a href="javascript:void(0);">手机号</a>
+                                    </td>
+                                    <td class="text-left">
+                                        <a href="javascript:void(0);">推荐人</a>
+                                    </td>
+                                    <td class="text-left">
+                                        <a href="javascript:void(0);">开户账户</a>
+                                    </td>
+                                    
+                                    <td class="text-left">
+                                        <a href="javascript:void(0);">开户名</a>
+                                    </td>
+                                    <td class="text-left">
+                                        <a href="javascript:void(0);">开户银行</a>
+                                    </td>
+                                    <td class="text-left">
+                                        <a href="javascript:void(0);">身份证号码</a>
+                                    </td>
+                                    
+                                    <td class="text-left">
+                                        <a href="javascript:sort('regis_time');">注册时间</a>
+                                    </td>
+                                    <td class="text-right">操作</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="userList" id="list">
+                                    <tr>
+                                        <td class="text-center">
+                                            <input type="checkbox" name="selected[]" value="{$list['user_id']}">
+                                            <input type="hidden" name="shipping_code[]" value="flat.flat">
+                                        </td>
+                                        <td class="text-right">{$list.user_id}</td>
+                                        <td class="text-left">{$list.user_name}</td>
+                                        <td class="text-left">{$list.mobile}</td>
+                                        <td class="text-left">{$list.recommender}</td>
+                                        <td class="text-left">{$list.open_acount}</td>
+                                        <td class="text-left">{$list.open_name}</td>
+                                        <td class="text-left">{$list.open_bank}</td>
+                                        <td class="text-left">{$list.id_card}</td>
+                                        <td class="text-left">{$list.regis_time|date='Y-m-d H:i',###}</td>
+                                        <td class="text-right">
+                                            <a href="{:U('Admin/user/detail',array('id'=>$list['user_id']))}" data-toggle="tooltip" title="" class="btn btn-info" data-original-title="查看详情"><i class="fa fa-eye"></i></a>
+                                            <a href="{:U('Admin/user/delete',array('id'=>$list['user_id']))}" id="button-delete6" data-toggle="tooltip" title="" class="btn btn-danger" data-original-title="删除"><i class="fa fa-trash-o"></i></a>
+                                        </td>
+                                    </tr>
+                                </volist>
+                                </tbody>
+                            </table>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col-sm-3 text-left">
+                        </div>
+                        <div class="col-sm-6 text-right">{$page}</div>
+                    </div>
+<script>
+    $(".pagination  a").click(function(){
+        var page = $(this).data('p');
+        ajax_get_table('search-form2',page);
+    });
+</script>

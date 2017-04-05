@@ -1,0 +1,95 @@
+<include file="Public/min-header"/>
+<div class="wrapper">
+    <!-- Content Header (Page header) -->
+   <include file="Public/breadcrumb"/>
+    <section class="content">
+    <!-- Main content -->
+    <!--<div class="container-fluid">-->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-list"></i> 用户信息</h3>
+            </div>
+            <div class="panel-body">
+                <form action="" method="post" onsubmit="return checkUserUpdate(this);">
+                    <input type="hidden" class="form-control" name="user_id" value="{$user.user_id}">
+                    <table class="table table-bordered">
+                    <tbody>
+                    <tr>
+                        <td class="col-sm-2">用户名:</td>
+                        <td >{$user.user_name}<input type="hidden" class="form-control" name="user_name" value="{$user.user_name}"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="col-sm-2">手机号:</td>
+                        <td ><input type="text" class="form-control" name="mobile" value="{$user.mobile}"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>登录密码:</td>
+                        <td><input type="text" class="form-control" name="user_key"></td>
+                        <td>留空表示不修改密码</td>
+                    </tr>
+                    <tr>
+                        <td>交易密码:</td>
+                        <td><input type="text" class="form-control" name="transaction_password" ></td>
+                        <td>留空表示不修改密码</td>
+                    </tr>
+                    <tr>
+                        <td>推荐人:</td>
+                        <td>{$user.recommender}</td>
+                    </tr>
+                    <tr>
+                        <td class="col-sm-2">开户账户:</td>
+                        <td ><input type="text" class="form-control" name="open_acount" value="{$user.open_acount}"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="col-sm-2">开户名:</td>
+                        <td ><input type="text" class="form-control" name="open_name" value="{$user.open_name}"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="col-sm-2">开户银行:</td>
+                        <td ><input type="text" class="form-control" name="open_bank" value="{$user.open_bank}"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="col-sm-2">身份证号码:</td>
+                        <td ><input type="text" class="form-control" name="id_card" value="{$user.id_card}"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>注册时间:</td>
+                        <td>{$user.regis_time|date='Y-m-d H:i',###}</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="submit" class="btn btn-info">
+                                <i class="ace-icon fa fa-check bigger-110"></i> 保存
+                            </button>
+                            <a href="javascript:history.go(-1)" data-toggle="tooltip" title="" class="btn btn-default pull-right" data-original-title="返回"><i class="fa fa-reply"></i></a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                </form>
+
+            </div>
+        </div>
+ 	  </div> 
+    </div>    <!-- /.content -->
+   </section>
+</div>
+<script>
+    function checkUserUpdate(){
+
+        return true;
+
+    }
+</script>
+
+</body>
+</html>

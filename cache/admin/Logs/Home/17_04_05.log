@@ -1,0 +1,186 @@
+[ 2017-04-05T20:00:50+08:00 ] 127.0.0.1 /cfc_member/
+NOTIC: [2] mkdir(): File exists E:\www\cfc_member\ThinkPHP\Library\Think\Build.class.php 第 110 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 18 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 22 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 23 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 24 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 26 行.
+INFO: [ app_begin ] --START--
+
+[ 2017-04-05T20:01:09+08:00 ] 127.0.0.1 /index.php/Home/Index/menber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 18 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 22 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 23 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 24 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 26 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-04-05T20:01:09+08:00 ] 127.0.0.1 /index.php/Home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 18 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 22 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 23 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 24 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 26 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-04-05T20:12:28+08:00 ] 127.0.0.1 /index.php/Home/Index/notice.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 18 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 22 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 23 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 24 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 26 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-04-05T20:12:28+08:00 ] 127.0.0.1 /index.php/Home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 18 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 22 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 23 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 24 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 26 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-04-05T20:12:34+08:00 ] 127.0.0.1 /index.php/Home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 18 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 22 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 23 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 24 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 26 行.
+INFO: [ app_begin ] --START--
+
+[ 2017-04-05T20:13:09+08:00 ] 127.0.0.1 /index.php/Home/Index/regis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 18 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 22 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 23 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 24 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 26 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-04-05T20:13:10+08:00 ] 127.0.0.1 /index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 18 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 22 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 23 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 24 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 26 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-04-05T20:13:15+08:00 ] 127.0.0.1 /index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 18 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 22 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 23 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 24 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 26 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-04-05T20:13:17+08:00 ] 127.0.0.1 /index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 18 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 22 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 23 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 24 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 26 行.
+INFO: [ app_begin ] --START--
+
+[ 2017-04-05T20:13:18+08:00 ] 127.0.0.1 /index.php/Home/Index/notice.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 18 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 22 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 23 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 24 行.
+NOTIC: [8] Use of undefined constant TPSHOP_CACHE_TIME - assumed 'TPSHOP_CACHE_TIME' E:\www\cfc_member\Application\Home\Conf\config.php 第 26 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+

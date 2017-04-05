@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*在线留言*/
+.messageBox{width:510px;height:auto;margin:30px auto;}
+.messageSpan{display:inline-block;width:80px;height:22px; vertical-align:middle;}
+.messageInp1{width:222px;height:20px;border:1px solid #a9a9a9;}
+.messageTextarea{width:424px;height:84px;border:1px solid #a9a9a9;}
+.messageInp2{width:54px;height:20px;border:1px solid #a9a9a9;}
+.messageBtn{width:49px;height:20px;border:1px solid #a9a9a9;font-size:12px;color:#000;}
+.messageP{padding-bottom:10px;}
+
+
+
+/*放大镜样式*/
+#magnifierBox{width:425px;height:250px;position:relative;margin:0px auto;}
+.divStyle{width:425px;height:250px;border:1px solid #ccc;float:left;margin-right:20px;position:relative;top:0;left:0;}
+#magnifierDiv2{width:300px;position:absolute;left:102%;top:0px;overflow:hidden;display:none;}
+#magnifierSon{cursor:pointer;display:none;position:absolute;top:0;left:0;width:100px;height:100px;background:#fff;opacity:0.4;filter:alpha(opacity=40);}
+#magnifierImg1{position:absolute;top:0;left:0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
